@@ -57,7 +57,7 @@ const App = () => (
   <Popover.Container>
     {popover => (
       <Button as={Popover.Toggle} {...popover}>
-        Button
+        Toggle
         <Popover {...popover}>
           <Popover.Arrow />
           Popover
